@@ -4,9 +4,9 @@ cloud:
       static: us-east-1
       auto: false
     credentials:
-      access-key: AKIARZ6TUUMLFQIAGB22
-      secret-key: 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
+      access-key: access-key
+      secret-key: secret-key
     end-point:
-      uri: https://sqs.us-east-1.amazonaws.com/124461032214/ExampleQueueSQS
+      uri: my-endpoint
 server:
   port: 8081
